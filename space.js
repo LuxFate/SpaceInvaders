@@ -31,5 +31,8 @@ window.onload = function(){
     context = map.getContext("2d")
 
     shipImg = new Image();
-    shipImg.src = "./ship.png"
+    shipImg.src = "./ship.png";
+    shipImg.onload = function(){
+        context.drawImage()
+    }
 }
